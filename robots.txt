@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://era-appliance-repair.netlify.app/sitemap.xml
+Sitemap: https://eraappliancerepair.com/sitemap.xml
