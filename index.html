@@ -94,9 +94,9 @@
     <div class="containerForm">
       <h3>Ready for fast, reliable service? <br> Request a call today!</h3>
       <form action="https://formspree.io/f/xyyrgqja" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="tel" name="phone" placeholder="Phone Number" required>
-        <select name="appliance" required>
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="tel" name="phone" placeholder="Phone Number">
+        <select name="appliance">
           <option value="">Select Appliance</option>
           <option value="refrigerator">Refrigerator</option>
           <option value="washer">Washer / Dryer</option>
@@ -107,7 +107,20 @@
         <textarea name="message" >Message (Optional)</textarea>
         <input type="text" name="_gotcha" style="display:none">
         <input type="hidden" name="_subject" value="New request from ERA Appliance Repair">
+        <div class="chckbx" style="margin: 25px 0 15px 0;">
+          <label style="display: block; margin-bottom: 12px; cursor: pointer;"><input type="checkbox" name="consent" style="margin-right: 8px;">
+          I consent to receive SMS notifications about my appointments and updates from ERA Appliance Repair LLC. Message frequency varies. Message & data rates may apply. Reply HELP for help or STOP to unsubscribe.
+          </label>
+          <label style="display: block; margin-bottom: 12px; cursor: pointer;"><input type="checkbox" name="message" style="margin-right: 8px;">
+          By checking this box, I agree to receive occasional marketing messages from ERA Appliance Repair LLC. Message frequency varies. Message & data rates may apply. Reply HELP for help or STOP to unsubscribe.
+          </label>
+        </div>
         <button class="cta-btn" type="submit">Send Request</button>
+        <div style="text-align: center; margin: 15px 0 20px 0; font-size: 14px;">
+          <a href="privacy-policy.html" target="_blank" style="color: #0066cc; text-decoration: underline;">Privacy Policy</a>
+          <span style="margin: 0.8px;">|</span>
+          <a href="terms.html" target="_blank" style="color: #0066cc; text-decoration: underline;">Terms & Conditions</a>
+        </div>
       </form>
     </div>
   </section>

@@ -189,6 +189,9 @@ body {
  html {
   scroll-behavior: smooth;
 }
+ .chckbx {
+  font-size: 12px;
+ }
  @media (max-width: 768px) {
   .header .container {
     flex-direction: column;
