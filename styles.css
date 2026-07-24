@@ -1263,77 +1263,10 @@ button {
 }
 @media (max-width: 768px) {
   .hero {
-    display: block;
-    min-height: auto;
-    padding: 85px 0 45px;
-
-    background-size: auto 100%;
-    background-position: 62% center;
+    padding-top: 90px;
   }
 
   .hero-content {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  .hero h1 {
-    margin-bottom: 24px;
-    font-size: clamp(52px, 15vw, 68px);
-    line-height: 0.94;
-    letter-spacing: -3px;
-  }
-
-  .hero-content > p {
-    margin-bottom: 30px;
-    font-size: 17px;
-    line-height: 1.65;
-  }
-
-  .hero-actions {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .hero-actions .button,
-  .hero-actions .btn {
-    width: 100%;
-    min-height: 62px;
-    margin: 0;
-  }
-
-  .hero-features {
-    position: static;
-    width: 100%;
-    margin-top: 40px;
-    border-top: 1px solid rgba(32, 200, 177, 0.2);
-    background: rgba(2, 6, 14, 0.75);
-  }
-
-  .hero-features-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0;
-    padding: 0;
-  }
-
-  .hero-feature {
-    min-height: 145px;
-    padding: 28px 20px;
-    border-bottom: 1px solid rgba(32, 200, 177, 0.15);
-  }
-
-  .feature-icon {
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  .hero-feature strong {
-    font-size: 17px;
-  }
-
-  .hero-feature > div > span {
-    font-size: 15px;
+    margin-top: 0;
   }
 }
