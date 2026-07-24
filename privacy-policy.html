@@ -1,87 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; max-width: 900px;}
-        h1, h2 {color: #333;}
-        button {background-color: #FFD700;
-            color: #093E72;
-            border: none;
-            padding: 12px 24px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            border-radius: 6px;
-            transition: background-color 0.3s ease;}
-    </style>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Read the AlmaVend privacy policy and learn how we collect, use, and protect your information."
+  >
+
+  <title>Privacy Policy | AlmaVend</title>
+
+  <link
+    rel="icon"
+    href="images/favicon.png"
+    type="image/png"
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    :root {
+      --dark: #02060e;
+      --navy: #071923;
+      --teal: #148d7f;
+      --light-teal: #20c8b1;
+      --white: #ffffff;
+      --text: #c8d4dc;
+      --border: rgba(32, 200, 177, 0.2);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background:
+        radial-gradient(
+          circle at top right,
+          rgba(20, 141, 127, 0.14),
+          transparent 35%
+        ),
+        var(--dark);
+
+      color: var(--text);
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    .policy-header {
+      padding: 28px 24px;
+      border-bottom: 1px solid var(--border);
+      background: rgba(2, 6, 14, 0.9);
+    }
+
+    .policy-header-container {
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      color: var(--white);
+      font-family: "Montserrat", sans-serif;
+      font-size: 25px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-decoration: none;
+    }
+
+    .logo span {
+      color: var(--light-teal);
+    }
+
+    .policy-container {
+      width: calc(100% - 40px);
+      max-width: 900px;
+      margin: 70px auto;
+      padding: 55px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: rgba(7, 25, 35, 0.72);
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.25);
+    }
+
+    h1,
+    h2 {
+      color: var(--white);
+      font-family: "Montserrat", sans-serif;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: clamp(36px, 6vw, 58px);
+      line-height: 1.1;
+    }
+
+    h2 {
+      margin-top: 42px;
+      margin-bottom: 14px;
+      font-size: 22px;
+      line-height: 1.3;
+    }
+
+    p {
+      margin-bottom: 18px;
+    }
+
+    ul {
+      margin: 0 0 20px 24px;
+    }
+
+    li {
+      margin-bottom: 9px;
+    }
+
+    strong {
+      color: var(--white);
+    }
+
+    a {
+      color: var(--light-teal);
+    }
+
+    .updated-date {
+      margin-bottom: 40px;
+      color: #8da0ab;
+    }
+
+    .back-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 35px;
+      padding: 13px 26px;
+      border: 1px solid var(--teal);
+      border-radius: 5px;
+      background: var(--teal);
+      color: var(--white);
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition:
+        background-color 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
+    }
+
+    .back-button:hover {
+      border-color: var(--light-teal);
+      background: var(--light-teal);
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 768px) {
+      .policy-container {
+        width: calc(100% - 30px);
+        margin: 35px auto;
+        padding: 32px 22px;
+      }
+
+      h1 {
+        font-size: 38px;
+      }
+
+      h2 {
+        margin-top: 34px;
+        font-size: 20px;
+      }
+    }
+  </style>
 </head>
+
 <body>
+
+  <header class="policy-header">
+    <div class="policy-header-container">
+      <a href="index.html" class="logo">
+        ALMA<span>VEND</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="policy-container">
+
     <h1>Privacy Policy</h1>
-    <p><h2> 1. Introduction</h2>
-        <br>Welcome to <strong>ERA Appliance Repair</strong>! We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at era.appliance.repair@gmail.com
-        <br>When you visit our website eraappliancerepair.com (the "Website"), and more generally, use any of our services (the "Services", which include the Website), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it.
-        <br>Please read this privacy policy carefully, as it will help you understand what we do with the information that we collect.
-        <br><h2> 2. What Information Do We Collect?</h2>
-        <br>We collect personal information that you voluntarily provide to us when you register on the Website, express an interest in obtaining information about us or our products and Services, when you participate in activities on the Website, or otherwise when you contact us.
-        <br>The personal information that we collect depends on the context of your interactions with us and the Website, the choices you make, and the products and features you use. The personal information we collect may include the following:
-        <br>• Personal Information Provided by You. We collect names; phone numbers; email addresses; mailing addresses; job titles; contact preferences; and other similar information.
-        <br>• Payment Data. We may collect data necessary to process your payment if you make purchases, such as your payment instrument number (such as a credit card number), and the security code associated with your payment instrument
-        <br><h2>3. SMS Messaging & Privacy</h2> 
-        <strong>Opt-In & Consent</strong>
-        <br>We collect your phone number only when you voluntarily provide it to us through our website forms, such as our "Contact Us" or "Request Service" forms. By providing your phone number and checking the consent box, you agree to receive automated text messages (SMS) from Era Appliance LLC regarding your service requests, appointments, and project updates. Consent to receive text messages is not a condition of purchase.
-        <br><h2>4. How Do We Use Your Information?</h2>
-        We use personal information collected via our Website for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations.
-        <ul>
-            <li>To facilitate account creation and logon process.</li>
-            <li>To send administrative information to you.</li>
-            <li>To fulfill and manage your orders.</li>
-            <li>To deliver and facilitate delivery of services to the user.</li>
-            <li>To respond to user inquiries/offer support to users.</li>
-            <li>To send you marketing and promotional communications.</li>
-            <li>To deliver targeted advertising to you.</li>
-            <li>For other business purposes.</li>
-        </ul>
-        <br><h2>5. Will Your Information Be Shared With Anyone?</h2>
-        We may process or share your data that we hold based on the following legal basis:
-        <ul>
-            <li>Consent: We may process your data if you have given us specific consent to use your personal information for a specific purpose.</li>
-            <li>Legitimate Interests: We may process your data when it is reasonably necessary to achieve our legitimate business interests.</li>
-            <li>Performance of a Contract: Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract.</li>
-            <li>Legal Obligations: We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process.</li>
-            <li>No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. Information sharing to subcontractors in support services, such as customer service is permitted. All other use case categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.</li>
-        </ul>
-        <br><h2>6. Cookies and Similar Technologies</h2>
-        We use cookies and similar tracking technologies on our Website to help customize the Website and improve your experience. A cookie is a small file placed on your device that enables various features and functionality. For example, cookies allow us to understand how you use our Website, improve your user experience, and manage your preferences.
-        <br><strong>Types of Cookies We Use</strong> 
-        <br>Essential Cookies: These cookies are essential for enabling user movement around our Website and providing access to features such as your profile, purchases, and other secure areas of the Website. This category of cookies cannot be disabled.
-        <br>Analytics and Performance Cookies: These cookies are used to collect information about traffic to our Website and how users use our Website. The information gathered does not identify any individual visitor and is aggregated. It includes the number of visitors to our Website, the websites that referred them to our Website, the pages they visited on our Website, what time of day they visited our Website, whether they have visited our Website before, and other similar information. We use this information to help operate our Website more efficiently, to gather broad demographic information, and to monitor the level of activity on our Website.
-        <br>Functionality Cookies: These cookies remember choices you make such as language preference, country location, or other online settings and provide personalized or enhanced features that you select, as well as to remember your settings.
-        <br>Targeting and Advertising Cookies: These cookies track your browsing habits and location to provide you with advertising in line with your interests. They are also used to understand the effectiveness of advertising campaigns.
-        <br><strong>Your Choices Regarding Cookies</strong> 
-        <br>If you prefer to avoid the use of cookies on the Website, you can disable the use of cookies in your browser settings. Please note that disabling cookies may affect the functionality of the Website and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of this site and many others.
-        <br><strong>Consent for Cookies</strong>
-        <br>In locations where it is required by law, we will request your consent to use cookies when you first visit our Website. If you consent to our use of cookies but later wish to opt out, you can adjust your browser settings as described above.
-        <br><h2>7. How Do We Handle Your Social Logins?</h2>
-        If you choose to register or log in to our services using a social media account, we may have access to certain information about you.
-        <br><h2>8. How Long Do We Keep Your Information?</h2>
-        We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy policy, unless a longer retention period is required or permitted by law.
-        <br><h2>9. How Do We Keep Your Information Safe?</h2>
-        We aim to protect your personal information through a system of organizational and technical security measures.
-        <br><h2>10. Do We Collect Information from Minors?</h2>
-        We do not knowingly solicit data from or market to children under 18 years of age.
-        <br><h2>11. What Are Your Privacy Rights?</h2>
-        You have certain rights regarding your personal information, subject to local data protection laws.
-        <br><h2>12. Do California Residents Have Specific Privacy Rights?</h2>
-        If you are a resident of California, you are granted specific rights regarding access to your personal information.
-        <br><h2>13. Do We Make Updates to This Policy?</h2>
-        We may update this privacy policy from time to time. The updated version will be indicated by an updated "Revised" date and the updated version will be effective as soon as it is accessible.
-        <br><h2>14. How Can You Contact Us About This Policy?</h2>
-        If you have questions or comments about this policy, you may email us at era.appliance.repair@gmail.com or by post to: ERA Appliance Repair
+
+    <p class="updated-date">
+      Last updated: July 24, 2026
     </p>
-    <button> <a href="index.html">Back</a></button>
-    
+
+    <section>
+      <h2>1. Introduction</h2>
+
+      <p>
+        AlmaVend respects your privacy and is committed to protecting
+        the personal information you provide when visiting our website
+        or contacting us about vending services.
+      </p>
+
+      <p>
+        This Privacy Policy explains what information we may collect,
+        how we use it, and the choices available to you.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Information We Collect</h2>
+
+      <p>
+        We may collect information that you voluntarily provide through
+        our contact form, by email, by telephone, or through other direct
+        communications with AlmaVend.
+      </p>
+
+      <p>This information may include:</p>
+
+      <ul>
+        <li>Your name;</li>
+        <li>Business or organization name;</li>
+        <li>Email address;</li>
+        <li>Telephone number;</li>
+        <li>Location or service address;</li>
+        <li>Information about your vending needs;</li>
+        <li>Any other information included in your message.</li>
+      </ul>
+
+      <p>
+        We may also receive limited technical information when you visit
+        the website, such as browser type, device type, referring page,
+        and general website activity.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. How We Use Your Information</h2>
+
+      <p>We may use your information to:</p>
+
+      <ul>
+        <li>Respond to questions and service inquiries;</li>
+        <li>Evaluate potential vending locations;</li>
+        <li>Recommend an appropriate vending solution;</li>
+        <li>Coordinate vending placement and ongoing service;</li>
+        <li>Communicate about appointments and service updates;</li>
+        <li>Maintain and improve our website and services;</li>
+        <li>Protect against fraud, misuse, or security issues;</li>
+        <li>Comply with applicable legal requirements.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. SMS Communications</h2>
+
+      <p>
+        If you voluntarily provide your mobile telephone number and
+        consent to receive text messages, AlmaVend may send messages
+        related to your inquiry, location review, appointments, vending
+        placement, and service updates.
+      </p>
+
+      <p>
+        Consent to receive text messages is not a condition of purchasing
+        or receiving services. Message frequency may vary. Message and
+        data rates may apply.
+      </p>
+
+      <p>
+        You may reply <strong>STOP</strong> to unsubscribe or
+        <strong>HELP</strong> for assistance.
+      </p>
+
+      <p>
+        Mobile information, text-message consent, and opt-in data will
+        not be sold or shared with third parties or affiliates for their
+        marketing or promotional purposes.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. How We Share Information</h2>
+
+      <p>
+        AlmaVend does not sell your personal information.
+      </p>
+
+      <p>
+        We may share limited information with service providers that help
+        us operate the website, communicate with customers, or provide
+        requested services. These providers may use the information only
+        for the services they perform for AlmaVend.
+      </p>
+
+      <p>
+        We may also disclose information when required by law, legal
+        process, court order, or a valid governmental request, or when
+        reasonably necessary to protect our rights, customers, business,
+        or property.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Cookies and Website Technologies</h2>
+
+      <p>
+        Our website may use cookies or similar technologies that support
+        basic website functionality, security, performance measurement,
+        and visitor analytics.
+      </p>
+
+      <p>
+        You can control or disable cookies through your browser settings.
+        Disabling certain cookies may affect how some website features
+        function.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Data Retention</h2>
+
+      <p>
+        We retain personal information only for as long as reasonably
+        necessary to respond to inquiries, provide requested services,
+        maintain business records, resolve disputes, and satisfy legal
+        obligations.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Information Security</h2>
+
+      <p>
+        We use reasonable administrative and technical safeguards intended
+        to protect personal information. However, no internet transmission
+        or electronic storage method can be guaranteed to be completely
+        secure.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Children's Privacy</h2>
+
+      <p>
+        Our website and services are intended for businesses and adults.
+        AlmaVend does not knowingly collect personal information from
+        children under 13.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Your Privacy Choices</h2>
+
+      <p>
+        You may contact us to request access to, correction of, or deletion
+        of personal information that you have provided, subject to applicable
+        legal and recordkeeping requirements.
+      </p>
+
+      <p>
+        You may also ask us to stop sending nonessential communications.
+      </p>
+    </section>
+
+    <section>
+      <h2>11. Third-Party Links</h2>
+
+      <p>
+        Our website may contain links to third-party websites. AlmaVend is
+        not responsible for the privacy practices or content of websites
+        operated by other organizations.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Changes to This Policy</h2>
+
+      <p>
+        We may update this Privacy Policy when our website, services, or
+        privacy practices change. The current version will be identified
+        by the “Last updated” date displayed at the top of this page.
+      </p>
+    </section>
+
+    <section>
+      <h2>13. Contact Us</h2>
+
+      <p>
+        If you have questions about this Privacy Policy or how AlmaVend
+        handles personal information, contact us:
+      </p>
+
+      <p>
+        <strong>AlmaVend LLC</strong><br>
+        Email:
+        <a href="mailto:YOUR-EMAIL@YOUR-DOMAIN.COM">
+          YOUR-EMAIL@YOUR-DOMAIN.COM
+        </a><br>
+        Phone:
+        <a href="tel:+1XXXXXXXXXX">
+          YOUR PHONE NUMBER
+        </a><br>
+        Service area: Chicago and surrounding areas, Illinois
+      </p>
+    </section>
+
+    <a href="index.html" class="back-button">
+      ← Back to Home
+    </a>
+
+  </main>
+
 </body>
 </html>
