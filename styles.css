@@ -1271,14 +1271,9 @@ button {
   }
 }
 @media (max-width: 768px) {
-  .hero-features {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    margin-top: 35px;
-  }
+
 
   .hero-feature {
-    transform: none;
+    display: none;
   }
 }
